@@ -292,7 +292,6 @@ const pointCal = async (data, type, team1, team2) => {
   }
 };
 const csvGenerator = (data, csvhead, name) => {
-  debugger;
   data.forEach(function (row) {
     csvhead += row.join(",");
     csvhead += "\n";
